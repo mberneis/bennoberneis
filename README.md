@@ -25,18 +25,11 @@ This site is designed to be deployed to **Cloudflare Pages**.
 2.  **Build settings**:
     - **Framework preset**: `None`
     - **Build command**: `python3 generate_site.py`
-    - **Build output directory**: `public`
+    - **Build output directory**: `.` (Root)
     - **Root directory**: (Leave empty / default `/`)
-2.  **Deploy settings**:
-    - **Deploy command**: `true` (If required by the UI; this is a "do-nothing" command)
-3.  **Environment variables** (Optional): None needed.
-
-> **Note:** Do not put `public` in the "Root directory" path settings. Cloudflare needs to run the build command in the main repository folder first to create the `public` folder.
 
 The build script will:
 1.  Read `posts.json`.
-2.  Generate `index.html` inside the `public/` folder.
-3.  Copy `styles.css` and `favicon.ico` to `public/`.
-4.  Copy all images from `images/` to `public/images/`.
+2.  Generate `index.html` in the root folder.
 
-This ensures a clean deployment package.
+This keeps the repository simple.

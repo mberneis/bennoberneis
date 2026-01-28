@@ -1,17 +1,8 @@
 import json
 import os
-import shutil
 from urllib.parse import urlparse
 
-OUTPUT_DIR = 'public'
-
 def generate_html():
-    # Create output directory
-    if os.path.exists(OUTPUT_DIR):
-        shutil.rmtree(OUTPUT_DIR)
-    os.makedirs(OUTPUT_DIR)
-    os.makedirs(os.path.join(OUTPUT_DIR, 'images'))
-
     # Load posts
     with open('posts.json', 'r') as f:
         posts = json.load(f)
@@ -37,14 +28,6 @@ def generate_html():
 """
 
     for post in posts:
-        # Skip the first post if it's just the title/intro which we hardcoded,
-        # but looking at the JSON, the first post is an "Article".
-        # The intro text ("This blog is maintained...") was in the gathered text but not necessarily in the first "post" object
-        # because of how we scraped.
-        # Actually, looking at the JSON, the first item is "Article from...". The "This blog..." text was in the generic text scrape but
-        # our post scraper might have missed the bio if it wasn't in a post container.
-        # It's fine, we put it in the header.
-
         text = post.get('text', '').strip()
         images = post.get('images', [])
         link = post.get('link')
@@ -74,12 +57,7 @@ def generate_html():
             for img_url in images:
                 # Extract filename
                 filename = os.path.basename(urlparse(img_url).path)
-                # Copy image to public/images
-                src_path = os.path.join('images', filename)
-                dst_path = os.path.join(OUTPUT_DIR, 'images', filename)
-                if os.path.exists(src_path):
-                    shutil.copy2(src_path, dst_path)
-                    html_content += f'                <img src="images/{filename}" alt="Benno Berneis Art" loading="lazy">\n'
+                html_content += f'                <img src="images/{filename}" alt="Benno Berneis Art" loading="lazy">\n'
             html_content += '            </div>\n'
 
         html_content += '        </article>\n'
@@ -89,15 +67,10 @@ def generate_html():
 </html>"""
 
     # Write index.html
-    with open(os.path.join(OUTPUT_DIR, 'index.html'), 'w') as f:
+    with open('index.html', 'w') as f:
         f.write(html_content)
 
-    # Copy static assets
-    shutil.copy2('styles.css', os.path.join(OUTPUT_DIR, 'styles.css'))
-    if os.path.exists('favicon.ico'):
-        shutil.copy2('favicon.ico', os.path.join(OUTPUT_DIR, 'favicon.ico'))
-
-    print(f"Site generated successfully in '{OUTPUT_DIR}' directory.")
+    print("index.html generated successfully.")
 
 if __name__ == "__main__":
     generate_html()

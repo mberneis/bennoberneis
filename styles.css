@@ -53,7 +53,8 @@ header p {
 article.post {
     background: #ffffff;
     margin-bottom: 80px; /* Generous spacing */
-    padding: 0;
+    padding: 12px;
+    border-radius:12px
 }
 
 /* Text Styling */

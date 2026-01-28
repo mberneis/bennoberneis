@@ -34,8 +34,8 @@ def generate_html():
     </nav>
 
     <header>
-        <h1>Benno Berneis</h1>
-        <p>
+        <h1 id="header-title">Benno Berneis</h1>
+        <p id="header-desc">
             An archive of the artist Benno Berneis (1 Apr 1883 – 8 Aug 1916).<br>
             Maintained by his grandson <a target="_blank" href="https://michael.berneis.com">Michael Berneis</a>.
         </p>
@@ -71,6 +71,19 @@ def generate_html():
             const lightboxImg = lightbox.querySelector('img');
             const langEn = document.getElementById('lang-en');
             const langDe = document.getElementById('lang-de');
+            const headerTitle = document.getElementById('header-title');
+            const headerDesc = document.getElementById('header-desc');
+
+            const headerTranslations = {{
+                en: {{
+                    title: "Benno Berneis",
+                    desc: 'An archive of the artist Benno Berneis (1 Apr 1883 – 8 Aug 1916).<br>Maintained by his grandson <a target="_blank" href="https://michael.berneis.com">Michael Berneis</a>.'
+                }},
+                de: {{
+                    title: "Benno Berneis",
+                    desc: 'Ein Archiv des Künstlers Benno Berneis (1. Apr. 1883 – 8. Aug. 1916).<br>Gepflegt von seinem Enkel <a target="_blank" href="https://michael.berneis.com">Michael Berneis</a>.'
+                }}
+            }};
 
             // State management
             let currentLang = (navigator.language || navigator.userLanguage).startsWith('de') ? 'de' : 'en';
@@ -78,6 +91,12 @@ def generate_html():
             const updateLanguageUI = () => {{
                 langEn.classList.toggle('active', currentLang === 'en');
                 langDe.classList.toggle('active', currentLang === 'de');
+
+                // Update Header
+                const trans = headerTranslations[currentLang];
+                headerTitle.textContent = trans.title;
+                headerDesc.innerHTML = trans.desc;
+
                 renderPosts();
             }};
 

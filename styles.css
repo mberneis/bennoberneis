@@ -145,7 +145,7 @@ header::before {
     left: 50%;
     width: 150%;
     height: 150%;
-    background: radial-gradient(circle, var(--accent-soft) 0%, transparent 70%);
+    background: radial-gradient(circle, var(--accent-soft) 0%);
     opacity: 0.1;
     transform: translate(-50%, -50%);
     z-index: -1;
@@ -332,7 +332,7 @@ article.post.visible {
 .link-preview {
     margin-bottom: 100px;
     padding: 40px;
-    background: rgba(var(--accent-soft), 0.05);
+    background: var(--card-bg);
     border: 1px solid var(--border-color);
     text-align: center;
 }
@@ -343,6 +343,23 @@ article.post.visible {
     color: var(--accent-color);
     text-decoration: none;
     font-style: italic;
+    position: relative;
+    padding-bottom: 4px;
+}
+
+.link-preview a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: var(--accent-color);
+    transition: width 0.3s ease;
+}
+
+.link-preview a:hover::after {
+    width: 100%;
 }
 
 /* Footer Decoration */

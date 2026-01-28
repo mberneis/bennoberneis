@@ -1,8 +1,18 @@
 import json
 import os
+import shutil
 from urllib.parse import urlparse
 
+OUTPUT_DIR = 'public'
+
 def generate_html():
+    # Create output directory
+    if os.path.exists(OUTPUT_DIR):
+        shutil.rmtree(OUTPUT_DIR)
+    os.makedirs(OUTPUT_DIR)
+    os.makedirs(os.path.join(OUTPUT_DIR, 'images'))
+
+    # Load posts
     with open('posts.json', 'r') as f:
         posts = json.load(f)
 
@@ -42,15 +52,13 @@ def generate_html():
         if not text and not images and not link:
             continue
 
-        html_content += '        <article class="post">\n'
-
         # Link
         if link:
-            html_content += f'            <div class="link-preview">\n'
-            html_content += f'                <a href="{link["url"]}" target="_blank">{link["title"]}</a>\n'
-            html_content += '            </div>\n'
+            html_content += f'        <div class="link-preview">\n'
+            html_content += f'            <a href="{link["url"]}" target="_blank">{link["title"]}</a>\n'
+            html_content += '        </div>\n'
 
-
+        html_content += '        <article class="post">\n'
 
         # Text
         if text:
@@ -66,8 +74,12 @@ def generate_html():
             for img_url in images:
                 # Extract filename
                 filename = os.path.basename(urlparse(img_url).path)
-                # Check if file exists locally (optional validity check)
-                html_content += f'                <img src="images/{filename}" alt="Benno Berneis Art" loading="lazy">\n'
+                # Copy image to public/images
+                src_path = os.path.join('images', filename)
+                dst_path = os.path.join(OUTPUT_DIR, 'images', filename)
+                if os.path.exists(src_path):
+                    shutil.copy2(src_path, dst_path)
+                    html_content += f'                <img src="images/{filename}" alt="Benno Berneis Art" loading="lazy">\n'
             html_content += '            </div>\n'
 
         html_content += '        </article>\n'
@@ -76,10 +88,16 @@ def generate_html():
 </body>
 </html>"""
 
-    with open('index.html', 'w') as f:
+    # Write index.html
+    with open(os.path.join(OUTPUT_DIR, 'index.html'), 'w') as f:
         f.write(html_content)
 
-    print("index.html generated successfully.")
+    # Copy static assets
+    shutil.copy2('styles.css', os.path.join(OUTPUT_DIR, 'styles.css'))
+    if os.path.exists('favicon.ico'):
+        shutil.copy2('favicon.ico', os.path.join(OUTPUT_DIR, 'favicon.ico'))
+
+    print(f"Site generated successfully in '{OUTPUT_DIR}' directory.")
 
 if __name__ == "__main__":
     generate_html()

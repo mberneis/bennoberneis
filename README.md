@@ -15,20 +15,28 @@ This is a static recreation of the Benno Berneis website (originally a Tumblr bl
 
 To view the site locally, simply open `index.html` in your web browser.
 
-## Deployment on Cloudflare Pages
+## Deployment
 
-This site is ready for Cloudflare Pages.
+This site is designed to be deployed to **Cloudflare Pages**.
 
-1.  Log in to the [Cloudflare Dashboard](https://dash.cloudflare.com/).
-2.  Go to **Pages**.
-3.  Click **Create a project** > **Connect to Git** (if you push this to GitHub/GitLab) OR **Direct Upload** (drag and drop the folder).
-4.  **If using Git:**
-    - Select your repository.
-    - **Build command:** (Leave empty, this is a plain static site).
-    - **Build output directory:** (Leave empty or set to root `/` if asked, but usually for static sites without a build step, just the root is fine. If Cloudflare asks for an output directory, you may need to ensure it serves the root. Actually, for plain HTML, standard settings work fine. If you strictly need a build command, `exit 0` works).
-5.  **If using Direct Upload:**
-    - Drag and drop the `bennoberneis` folder.
-    - Use the project name `benno-berneis` (or similar).
-    - Deploy.
+### Cloudflare Pages Settings
 
-The site requires no build process. It is pure HTML/CSS.
+1.  Connect your GitHub repository.
+2.  **Build settings**:
+    - **Framework preset**: `None`
+    - **Build command**: `python3 generate_site.py`
+    - **Build output directory**: `public`
+    - **Root directory**: (Leave empty / default `/`)
+2.  **Deploy settings**:
+    - **Deploy command**: `true` (If required by the UI; this is a "do-nothing" command)
+3.  **Environment variables** (Optional): None needed.
+
+> **Note:** Do not put `public` in the "Root directory" path settings. Cloudflare needs to run the build command in the main repository folder first to create the `public` folder.
+
+The build script will:
+1.  Read `posts.json`.
+2.  Generate `index.html` inside the `public/` folder.
+3.  Copy `styles.css` and `favicon.ico` to `public/`.
+4.  Copy all images from `images/` to `public/images/`.
+
+This ensures a clean deployment package.

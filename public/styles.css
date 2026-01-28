@@ -1,0 +1,132 @@
+/* Base Reset & Typography */
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #4a4a4a; /* Dark charcoal, softer than black */
+    background-color: #e6e4dc; /* Darker warm beige for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout Container */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Typography Headings */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #2c2c2c;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 80px 20px 60px;
+    background: linear-gradient(to bottom, #e6e4dc 0%, #dcd8d0 100%);
+    border-bottom: 1px solid #c8c4bc;
+    margin-bottom: 60px;
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin: 0 0 0.5em 0;
+    letter-spacing: -0.02em;
+    color: #1a1a1a;
+}
+
+header p {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: #666;
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Post Container */
+article.post {
+    background: #ffffff;
+    margin-bottom: 80px; /* Generous spacing */
+    padding: 0;
+}
+
+/* Text Styling */
+.post-text {
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-text p {
+    margin-bottom: 1.5em;
+    white-space: pre-wrap;
+}
+
+/* Image Styling */
+.post-images {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.post-images img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08); /* Soft shadow for depth */
+    border: 1px solid #f0f0f0; /* Subtle border */
+    border-radius: 2px;
+}
+
+/* Link Post Styling */
+.link-preview {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f7f2;
+    border: 1px solid #e8e4dc;
+    border-left: 4px solid #8c8c8c;
+}
+
+.link-preview a {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
+    color: #2c2c2c;
+    text-decoration: none;
+    border-bottom: 1px solid #d0d0d0;
+    transition: all 0.3s ease;
+}
+
+.link-preview a:hover {
+    color: #000;
+    border-bottom-color: #000;
+}
+
+/* Footer / Last Child adjustments */
+p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    header {
+        padding: 60px 20px 40px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}

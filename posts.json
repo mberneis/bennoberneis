@@ -5,7 +5,7 @@
     ],
     "text_en": "Article from \u201cDer Welt Spiegel\u201d, March 29, 1917\n",
     "text_de": "Artikel aus \u201cDer Welt Spiegel\u201d, 29 März 1917",
-    "picLink": "./pdfs/der-welt-spiegel-1917.pdf",
+    "piclink": "./pdfs/der-welt-spiegel-1917.pdf",
     "footer": ""
 
   },
@@ -172,7 +172,7 @@
     "images": [
       "https://64.media.tumblr.com/07bbb74aa9b43d424e8a9b6e3dfbf969/tumblr_mjrtl2086l1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Hunting uphill\n53.5cm x 63.5cm",
+    "text_en": "Hunting downhill\n53.5cm x 63.5cm",
     "text_de": "Jagdreiten bergab\n53.5cm x 63.5cm",
     "footer": "(Photograph by Heidi Thiede M.A.)"
   },
@@ -263,9 +263,10 @@
     "images": [
       "https://64.media.tumblr.com/tumblr_m5oscfaG6R1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Bust of Benno Berneis with his sister Frieda",
-    "text_de": "Schwester Frieda mit Benno\u2019s Bueste",
-    "footer": ""
+    "piclink": "https://www.fuerthwiki.de/wiki/index.php?title=Frida_Langer",
+    "text_en": "Bust of Benno Berneis with his sister Frida",
+    "text_de": "Schwester Frida mit Benno\u2019s Büste",
+    "footer": "Frida Langer"
   },
   {
     "images": [

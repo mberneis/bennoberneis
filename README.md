@@ -42,4 +42,4 @@ And commit the updated `index.html`.
 
 This project preserves the artistic legacy of Benno Berneis, ensuring all assets (images and text) are hosted locally and rendered in a modern, premium gallery interface.
 
-Old Tumblr site:https://www.tumblr.com/blog/benno-berneis
+Old Tumblr site: https://www.tumblr.com/benno-berneis

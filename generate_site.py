@@ -22,7 +22,8 @@ def generate_html():
 <body>
     <header>
         <h1>Benno Berneis</h1>
-        <p>This blog is maintained by Michael Berneis. It is collecting information about my grandfather, the artist Benno Berneis, 1 Apr 1883 - 8 Aug 1916</p>
+        <p>This site is maintained by <a target="_blank" href='https://michael.berneis.com'>Michael Berneis</a>. <br>It is collecting information
+            about my<br>grandfather,<br>the artist Benno Berneis,<br>1 Apr 1883 - 8 Aug 1916</p>
     </header>
     <main>
 """

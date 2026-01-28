@@ -17,19 +17,27 @@ To view the site locally, simply open `index.html` in your web browser.
 
 ## Deployment
 
-This site is designed to be deployed to **Cloudflare Pages**.
+This site is optimized for **Cloudflare Pages**.
 
-### Cloudflare Pages Settings
+### Cloudflare Pages Configuration
 
-1.  Connect your GitHub repository.
-2.  **Build settings**:
+1.  Push this repository to GitHub/GitLab.
+2.  In the Cloudflare Dashboard, go to **Workers & Pages** > **Create application** > **Pages**.
+3.  Connect your repository.
+4.  **Build settings**:
     - **Framework preset**: `None`
     - **Build command**: `python3 generate_site.py`
     - **Build output directory**: `.` (Root)
-    - **Root directory**: (Leave empty / default `/`)
+    - **Root directory**: `/`
 
-The build script will:
-1.  Read `posts.json`.
-2.  Generate `index.html` in the root folder.
+### Manual Refresh
 
-This keeps the repository simple.
+If you add new posts to `posts.json`, simply run:
+```bash
+python3 generate_site.py
+```
+And commit the updated `index.html`.
+
+## Archive Details
+
+This project preserves the artistic legacy of Benno Berneis, ensuring all assets (images and text) are hosted locally and rendered in a modern, premium gallery interface.

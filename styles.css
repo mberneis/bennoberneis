@@ -211,6 +211,8 @@ article.post {
     transform: translateY(30px) scale(0.98);
     transition: transform 1s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 1s ease;
     position: relative;
+    border-radius: 12px;
+
 }
 
 article.post.visible {
@@ -236,6 +238,12 @@ article.post.visible {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
     margin-top: 40px;
+}
+
+.post-footer {
+    text-align: center;
+    font-style: italic;
+    font-size:90%
 }
 
 .post-images img {

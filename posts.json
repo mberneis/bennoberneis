@@ -3,9 +3,11 @@
     "images": [
       "https://64.media.tumblr.com/d34acccf605974f83288047f3d89e275/tumblr_olsmth70ux1qk1nkmo1_1280.png"
     ],
-    "text_en": "Article from \u201cDer Welt Spiegel\u201d, March 29, 1917\nHigh Resolution PDF Here: ./pdfs/der-welt-spiegel-1917.pdf",
-    "text_de": "",
+    "text_en": "Article from \u201cDer Welt Spiegel\u201d, March 29, 1917\n",
+    "text_de": "Artikel aus \u201cDer Welt Spiegel\u201d, 29 März 1917",
+    "picLink": "./pdfs/der-welt-spiegel-1917.pdf",
     "footer": ""
+
   },
   {
     "images": [
@@ -43,93 +45,93 @@
       "https://64.media.tumblr.com/0452ac8da6177c29fefa0bbad2bfe4b1/tumblr_mjrvtir9rU1qk1nkmo2_1280.jpg",
       "https://64.media.tumblr.com/af508580dcfed5cd6f1fdd33245e2a06/tumblr_mjrvtir9rU1qk1nkmo3_1280.jpg"
     ],
-    "text_en": "Reiter am Meer\n1913\n188.5cm x 200cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Reiter am Meer\n1913\n188.5cm x 200cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/20a9e72dfe51ed6f54332cc29c4afd91/tumblr_mjrvr3JSXR1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "St\u00fcrzender Engel\n1914\n187cm x 187xm\n(Photograph by Heidi Thiede M.A.)",
-    "text_de": "",
-    "footer": ""
+    "text_de": "St\u00fcrzender Engel\n1914\n187cm x 187cm\n",
+    "text_en": "",
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/266901aa1450e0c3893cc2ccc41dfa40/tumblr_mjrvpjpS7u1qk1nkmo1_1280.jpg",
       "https://64.media.tumblr.com/a84fb2116714a908cf66ad6cb98246e2/tumblr_mjrvpjpS7u1qk1nkmo2_1280.jpg"
     ],
-    "text_en": "Alexander Moissi als Oswald\n1907\n179cm x 116cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Alexander Moissi als Oswald\n1907\n179cm x 116cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/3f42841ced252bb3a3714c8cfa478a37/tumblr_mjrvmoJV921qk1nkmo1_1280.jpg",
       "https://64.media.tumblr.com/165b53c2eee129c783dd905d5f6d9c81/tumblr_mjrvmoJV921qk1nkmo2_1280.jpg"
     ],
-    "text_en": "Schreitender Mann \u2013 Kompositionsstudie\n114.5cm x 81cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Schreitender Mann \u2013 Kompositionsstudie\n114.5cm x 81cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/ed522433e8cea4285137d42152153db1/tumblr_mjrve5Nlq71qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Bildnis von Albert Berneis \n(Vaters des K\u00fcnstlers Benno Berneis )\n1909\n130cm x 96.5cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Bildnis von Albert Berneis \n(Vaters des K\u00fcnstlers Benno Berneis )\n1909\n130cm x 96.5cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/55a13dce70ec9229f358c7a74c4495f0/tumblr_mjrv9e4geU1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Studie M\u00e4nnerkopf\n73cm x 60cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Studie M\u00e4nnerkopf\n73cm x 60cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/ef17e48fffc0a18db5e2181029537cdd/tumblr_mjrv82OAhd1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Hengst und Stute\n56cm x 75cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Hengst und Stute\n56cm x 75cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/732e7e4e7654d72f139141f55934723e/tumblr_mjrufqqleu1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Adam und Eva\n2014\n54cm x 50cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Adam und Eva\n2014\n54cm x 50cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/7b940cdb76ad30c6b9c8afa61efc576d/tumblr_mjrudzeKq11qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Selbstbildnis\n1909\n54.5cm x 45cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Selbstbildnis\n1909\n54.5cm x 45cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/78f4feda67c87937a51fdd913f89c3d6/tumblr_mjruc6sZzR1qk1nkmo1_1280.jpg",
       "https://64.media.tumblr.com/0f2b5875f2c85a010c4d955431fe9774/tumblr_mjruc6sZzR1qk1nkmo2_1280.jpg"
     ],
-    "text_en": "Die Erscheinung Christi\n1907\n140cm x 70cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Die Erscheinung Christi\n1907\n140cm x 70cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/b5b4f13385c6585dd69c0ef7cf84d50d/tumblr_mjrua1lgNr1qk1nkmo1_1280.jpg",
       "https://64.media.tumblr.com/b92a218072246538b3946285a053374e/tumblr_mjrua1lgNr1qk1nkmo2_1280.jpg"
     ],
-    "text_en": "Theater\n73cm x 58.5cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Theater\n73cm x 58.5cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
@@ -137,82 +139,82 @@
       "https://64.media.tumblr.com/765b9f55f2b4ffd6c1fa96c65ab658ea/tumblr_mjru86mB6E1qk1nkmo2_1280.jpg",
       "https://64.media.tumblr.com/a79497d84a8a51ca4f2ba51ae840a1a1/tumblr_mjru86mB6E1qk1nkmo3_1280.jpg"
     ],
-    "text_en": "Theaterszene\n62.5cm x 75.5cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Theaterszene\n62.5cm x 75.5cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/13988e0cb5e3ec4b53f0bcd1d5e5b78f/tumblr_mjrtqissaG1qk1nkmo1_1280.jpg",
       "https://64.media.tumblr.com/855c12b2a9ded52b4b5436587f802dc4/tumblr_mjrtqissaG1qk1nkmo2_1280.jpg"
     ],
-    "text_en": "Im Theater\n1909\n66.5cm x 56.5cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Im Theater\n1909\n66.5cm x 56.5cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/a1139d09892a95197550d5007bb54ef9/tumblr_mjrtnzVBP31qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Hindernisrennen\n69.5cm x 82cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Hindernisrennen\n69.5cm x 82cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/0200617a4f251ef4f129156860dab1e6/tumblr_mjrtmedUiz1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Jagdreiten\n1913\n46cm x 64cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Jagdreiten\n1913\n46cm x 64cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/07bbb74aa9b43d424e8a9b6e3dfbf969/tumblr_mjrtl2086l1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Jagdreiten bergab\n53.5cm x 63.5cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Jagdreiten bergab\n53.5cm x 63.5cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/bdcb3a3da771e72d24172ff996a7f51f/tumblr_mjrtiiv7zl1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Skulpturenkopf\n79cm x 59cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Skulpturenkopf\n79cm x 59cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/b90f9695bebf381be763bcac9c43999e/tumblr_mjrth7l7hH1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Junge im Stuhl\n1905\n115cm x 92cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Junge im Stuhl\n1905\n115cm x 92cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/b4e3e0e69f63e7a4df7f9a45d10ec9cf/tumblr_mjrtfkrfgj1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "M\u00e4dchenbildnis\n90cm x 60.5cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "M\u00e4dchenbildnis\n90cm x 60.5cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/933d5b71512de3b2da1bb130ffe83a96/tumblr_mjrtdvZVTd1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Herrenbildnis\n41.5cm x 30.5cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Herrenbildnis\n41.5cm x 30.5cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/46153e49f87945218c28487bcfcf1bbf/tumblr_mjrtcmyxP41qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Herrenbildnis\n1904\n44cm x 34cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Herrenbildnis\n1904\n44cm x 34cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
@@ -220,65 +222,65 @@
       "https://64.media.tumblr.com/fc942e6e455abfc1268696589b77b079/tumblr_mjrtasg1fj1qk1nkmo2_r1_1280.jpg",
       "https://64.media.tumblr.com/8d2a26ca6ce0d0dbebb8b785e9d9a230/tumblr_mjrtasg1fj1qk1nkmo3_r1_1280.jpg"
     ],
-    "text_en": "Sch\u00e4cherkopf \u2013 Ausschnitt aus einer Kreuzigung\n50cm x 52cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Sch\u00e4cherkopf \u2013 Ausschnitt aus einer Kreuzigung\n50cm x 52cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/6440c75e8662ead9d2e58b2c0b467d14/tumblr_mjrt9913Ol1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Herrenportrait Schmidt evtl. \u201eBildnis Rud. Johann Schmied, 1912\u201c\n1912\n100cm x 70cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Herrenportrait Schmidt evtl. \u201eBildnis Rud. Johann Schmied, 1912\u201c\n1912\n100cm x 70cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/bd6fa6437e1310738f11cd15424d4331/tumblr_mjrt6nBMvs1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Kauernde Maenner\n1910\n70cm x 72.5cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Kauernde Maenner\n1910\n70cm x 72.5cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/a58c68643ab5cc39db23ee46c34f35ec/tumblr_mjrt4xmgkh1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Atelierszene\n85cm x 85cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Atelierszene\n85cm x 85cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/595e6ae55e31a7cb3c10adef716fad8d/tumblr_mjrt3dQbdj1qk1nkmo1_1280.jpg",
       "https://64.media.tumblr.com/a403b4904ffe247e81adcaf8faf78b25/tumblr_mjrt3dQbdj1qk1nkmo2_r1_1280.jpg"
     ],
-    "text_en": "Der heiige Georg\n1912\n191cm x 151cm\n(Photograph by Heidi Thiede M.A.)",
+    "text_en": "Der heiige Georg\n1912\n191cm x 151cm",
     "text_de": "",
-    "footer": ""
+    "footer": "(Photograph by Heidi Thiede M.A.)"
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_m5oscfaG6R1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Bust of Benno Berneis with his sister Frieda\n~~~~~~~~~~~~~~\nSchwester Frieda mit Benno\u2019s Bueste",
-    "text_de": "",
+    "text_en": "Bust of Benno Berneis with his sister Frieda\n",
+    "text_de": "\nSchwester Frieda mit Benno\u2019s Bueste",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_m5os8zeEml1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Grave of a hero\n~~~~~~~~~~~~~~~\nHeldengrab",
-    "text_de": "",
+    "text_en": "Grave of a hero",
+    "text_de": "Heldengrab",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_ll9339Gsg51qk1nkmo1_250.png"
     ],
-    "text_en": "Obituary (in German)\n~~~~~~~~~~\nNachruf",
-    "text_de": "",
+    "text_en": "Obituary (in German)",
+    "text_de": "Nachruf",
     "footer": ""
   },
   {
@@ -290,8 +292,8 @@
       "https://64.media.tumblr.com/tumblr_ll92tmjhfx1qk1nkmo2_1280.jpg",
       "https://64.media.tumblr.com/tumblr_ll92tmjhfx1qk1nkmo6_r1_1280.jpg"
     ],
-    "text_en": "Assorted bookplates he created - Part 2\n~~~~~~~~~~\nVerschiedene Exlibris",
-    "text_de": "",
+    "text_en": "Assorted bookplates he created - Part 2",
+    "text_de": "Verschiedene Exlibris",
     "footer": ""
   },
   {
@@ -303,32 +305,32 @@
       "https://64.media.tumblr.com/tumblr_ll92itNT1d1qk1nkmo5_1280.jpg",
       "https://64.media.tumblr.com/tumblr_ll92itNT1d1qk1nkmo6_1280.jpg"
     ],
-    "text_en": "Assorted bookplates he created - Part 1\n~~~~~~~~~~\nVerschiedene Exlibris",
-    "text_de": "",
+    "text_en": "Assorted bookplates he created - Part 1",
+    "text_de": "Verschiedene Exlibris",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_ll08zeNj3c1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Painting of Landscape\n~~~~~~~~~~~~\nLandschafts Gemaelde",
-    "text_de": "",
+    "text_en": "Painting of Landscape",
+    "text_de": "Landschafts Gemälde",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_ll08y8IMOm1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Portrait taken of a painter friend\n~~~~~~~~~~\nPortrait von einem Freund erstellt (unbekannt)",
-    "text_de": "",
+    "text_en": "Portrait taken of a painter friend",
+    "text_de": "Portrait von einem Freund erstellt (unbekannt)",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_ll08x0zV3J1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "Self Portrait\n~~~~~~~~~~\nSelbstbildniss",
-    "text_de": "",
+    "text_en": "Self Portrait",
+    "text_de": "Selbstbildniss",
     "footer": ""
   },
   {
@@ -336,47 +338,47 @@
       "https://64.media.tumblr.com/tumblr_lkzpp8et9z1qk1nkmo1_400.jpg"
     ],
     "text_en": "MOMA - August Gaul was a close friend of Benno Berneis.\nHe was a sculpter working mostly with animals - Benno was one of 2 people for whom August make a bust",
-    "text_de": "",
+    "text_de": "MOMA - August Gaul war ein nahe liegender Freund von Benno Berneis.\nEr war ein Schöler, der hauptsächlich mit Tieren arbeitete - Benno war einer von zwei Menschen, für die August eine Bueste schmuckte",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_lkzn3lNHsj1qk1nkmo1_250.jpg"
     ],
-    "text_en": "Gravestone in Fuerth\n~~~~~~~~~~\nGrabstein in Fuerth",
-    "text_de": "",
+    "text_en": "Gravestone in Fuerth",
+    "text_de": "Grabstein in Fürth",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_lkymfw2bku1qk1nkmo1_640.jpg"
     ],
-    "text_en": "Stock Certificate of Benno\u2019s fathers factory\n~~~~~~~~~~\nAktie der Fabrik von Benno\u2019s Vater",
-    "text_de": "",
+    "text_en": "Stock Certificate of Benno\u2019s fathers factory",
+    "text_de": "Aktie der Fabrik von Benno\u2019s Vater",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_lkymc9ONpi1qk1nkmo1_1280.png"
     ],
-    "text_en": "German Article about Louis Berneis, Benno\u2019s father\n~~~~~~~~~~\nDeutscher Artikel ueber Louis Berneis, Benno\u2019s Vater",
-    "text_de": "",
+    "text_en": "German Article about Louis Berneis, Benno\u2019s father",
+    "text_de": "Deutscher Artikel ueber Louis Berneis, Benno\u2019s Vater",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_luu7pzzGbT1qk1nkmo1_640.jpg"
     ],
-    "text_en": "Plaque Gertrud Eydold\n~~~~~~~~~~\nGedenk Tafel Gertrud Eysold",
-    "text_de": "",
+    "text_en": "Plaque Gertrud Eydold",
+    "text_de": "Gedenk Tafel Gertrud Eysold",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_lkyjhwAqaK1qk1nkmo1_500.jpg"
     ],
-    "text_en": "Painting of Gertrud Eysoldt\n~~~~~~~~~~\nGemaelde seiner Frau, Gertrud Eysoldt",
-    "text_de": "",
+    "text_en": "Painting of Gertrud Eysoldt",
+    "text_de": "Gemälde seiner Frau, Gertrud Eysoldt",
     "footer": ""
   },
   {
@@ -385,65 +387,65 @@
       "url": "http://de.wikipedia.org/wiki/Gertrud_Eysoldt",
       "title": "Wikipedia - Gertrud Eysoldt"
     },
-    "text_en": "Wikipedia entry about Gertrud Eysoldt, his wife - she was more famous then him (German)\n~~~~~~~~~\nWikipedia Eintrag ueber Getrud Eysoldt, seine Frau - sie war ber\u00fchmter als er",
-    "text_de": "",
+    "text_en": "Wikipedia entry about Gertrud Eysoldt, his wife - she was more famous then him (German)",
+    "text_de": "Wikipedia Eintrag ueber Getrud Eysoldt, seine Frau - sie war ber\u00fchmter als er",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_lkyjboUk0y1qk1nkmo1_500.jpg"
     ],
-    "text_en": "When he got drafted - (Links to article in \u201cFront Flieger\u201d)\n~~~~~~~~~~\nAls Wehrpflichtigen - (Link zu einem Artikel im \u201cFront Flieger\u201d)",
+    "text_en": "When he got drafted - (Links to article in \u201cFront Flieger\u201d)",
     "piclink": "http://www.frontflieger.de/2-berneis-benno.html",
-    "text_de": "",
+    "text_de": "Als Wehrpflichtigen - (Link zu einem Artikel im \u201cFront Flieger\u201d)",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_lkyjamrney1qk1nkmo1_400.jpg"
     ],
-    "text_en": "Rumors had it that he loved to paint in a monk robe and was naked underneath\n~~~~~~~~~~\nFamiliengeruechte behaupten dass er am liebsten nackt in einer Moenchskutte arbeitet",
-    "text_de": "",
+    "text_en": "Rumors had it that he loved to paint in a monk robe and was naked underneath",
+    "text_de": "Familiengerüchte behaupten dass er am liebsten nackt in einer Mönchskutte arbeitet",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_lkym4aYVDy1qk1nkmo1_1280.jpg"
     ],
-    "text_en": "His grave in Mont-Saint-Remy in Ardennen (France)\nSoldatenfriedhof Mont-Saint-Remy in den Ardennen (Frankreich).",
-    "text_de": "",
+    "text_en": "His grave in Mont-Saint-Remy in Ardennen (France)",
+    "text_de": "Soldatenfriedhof Mont-Saint-Remy in den Ardennen (Frankreich)",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_lkyj7qYdiR1qk1nkmo1_640.png"
     ],
-    "text_en": "Death Certificate\n~~~~~~~~~~\nTodes Urkunde",
-    "text_de": "",
+    "text_en": "Death Certificate",
+    "text_de": "Todes Urkunde",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_lkyj6eG9q01qk1nkmo1_640.png"
     ],
-    "text_en": "War Documents\n~~~~~~~~~~\nKriegsbescheinigung",
-    "text_de": "",
+    "text_en": "War Documents",
+    "text_de": "Kriegsbescheinigung",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_lkyj4uQgy21qk1nkmo1_500.png"
     ],
-    "text_en": "Archive Records\n~~~~~~~~~~\nArchiv Dokumente",
-    "text_de": "",
+    "text_en": "Archive Records",
+    "text_de": "Archiv Dokumente",
     "footer": ""
   },
   {
     "images": [
       "https://64.media.tumblr.com/tumblr_lkyixjalfh1qk1nkmo1_500.png"
     ],
-    "text_en": "Birth Certificate\n~~~~~~~~~~\nGeburtsschein",
-    "text_de": "",
+    "text_en": "Birth Certificate",
+    "text_de": "Geburtsschein",
     "footer": ""
   },
   {
@@ -452,8 +454,8 @@
       "url": "http://de.wikipedia.org/wiki/Benno_Berneis",
       "title": "Wikipedia"
     },
-    "text_en": "German Wikipedia entry\n~~~~~~~~~~\nDeutscher Wikipedia Eintrag",
-    "text_de": "",
+    "text_en": "German Wikipedia entry",
+    "text_de": "Deutscher Wikipedia Eintrag",
     "footer": ""
   }
 ]

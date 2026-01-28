@@ -194,15 +194,16 @@ def generate_html():
                                 }}
                             }});
 
+                            const picLink = post.piclink || post.picLink;
                             if (textContent && textContent.includes('Der Welt Spiegel') && filename === 'tumblr_olsmth70ux1qk1nkmo1_1280.png') {{
                                 const a = document.createElement('a');
                                 a.href = './pdfs/der-welt-spiegel-1917.pdf';
                                 a.target = '_blank';
                                 a.appendChild(img);
                                 imagesDiv.appendChild(a);
-                            }} else if (post.piclink) {{
+                            }} else if (picLink) {{
                                 const a = document.createElement('a');
-                                a.href = post.piclink;
+                                a.href = picLink;
                                 a.target = '_blank';
                                 a.appendChild(img);
                                 imagesDiv.appendChild(a);

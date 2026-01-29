@@ -17,7 +17,7 @@ def generate_html():
     <title>Benno Berneis | Artist Archive</title>
     <meta name="description" content="Archive of the artist Benno Berneis (1883-1916). Collecting his works, letters and history.">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-
+    <meta content="avatar.pnj" property="og:image">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">

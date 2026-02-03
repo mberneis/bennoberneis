@@ -450,5 +450,14 @@
     "text_en": "German Wikipedia entry",
     "text_de": "Deutscher Wikipedia Eintrag",
     "footer": ""
+  },{
+    "images": [],
+    "link": {
+      "url": "https://www.fuerthwiki.de/wiki/index.php?title=Benno_Berneis",
+      "title": "Fürth Wiki"
+    },
+    "text_en": "Wiki from his Birth City",
+    "text_de": "Wiki seiner Geburts Stadt",
+    "footer": ""
   }
 ]

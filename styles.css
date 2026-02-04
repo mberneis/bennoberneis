@@ -12,9 +12,21 @@
     --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+/* Dark mode via manual toggle */
+html.dark {
+    --bg-color: #1a1a18; /* Deep Sepia/Charcoal */
+    --bg-texture: url('https://www.transparenttextures.com/patterns/canvas-orange.png');
+    --card-bg: rgba(30, 30, 28, 0.9);
+    --text-primary: #e0e0d6;
+    --text-secondary: #a0a095;
+    --accent-color: #d4af37; /* Brighter Gold for dark mode */
+    --accent-soft: #6b7a5e; /* Muted Olive */
+    --border-color: rgba(212, 175, 55, 0.1);
+}
+
+/* Dark mode via system preference (when no manual preference set) */
 @media (prefers-color-scheme: dark) {
-    :root {
-        /* Dark Mode Palette: Nocturnal Impressionism */
+    html:not(.light) {
         --bg-color: #1a1a18; /* Deep Sepia/Charcoal */
         --bg-texture: url('https://www.transparenttextures.com/patterns/canvas-orange.png');
         --card-bg: rgba(30, 30, 28, 0.9);
@@ -62,9 +74,31 @@ nav.scrolled .nav-logo {
     opacity: 1;
 }
 
+.nav-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .lang-toggle {
     display: flex;
     gap: 15px;
+}
+
+#dark-mode-toggle {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease;
+}
+
+#dark-mode-toggle:hover {
+    color: var(--accent-color);
 }
 
 .lang-btn {

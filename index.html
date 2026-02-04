@@ -11,14 +11,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=bbb4930e">
+    <script>
+        // Dark mode detection and initialization (runs before page renders to prevent flash)
+        (function() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                document.documentElement.classList.add('dark');
+            } else if (theme === 'light') {
+                document.documentElement.classList.add('light');
+            }
+            // If no theme set, CSS media query handles system preference
+        })();
+    </script>
 </head>
 <body>
     <nav id="main-nav">
         <a href="#" class="nav-logo">Benno Berneis</a>
-        <div class="lang-toggle">
-            <button class="lang-btn" id="lang-en">EN</button>
-            <button class="lang-btn" id="lang-de">DE</button>
+        <div class="nav-controls">
+            <div class="lang-toggle">
+                <button class="lang-btn" id="lang-en">EN</button>
+                <button class="lang-btn" id="lang-de">DE</button>
+            </div>
+            <button id="dark-mode-toggle" aria-label="Toggle dark mode">
+                <svg id="theme-icon" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                </svg>
+            </button>
         </div>
     </nav>
 
@@ -400,14 +419,6 @@
   },
   {
     "images": [
-      "https://64.media.tumblr.com/tumblr_lkymc9ONpi1qk1nkmo1_1280.png"
-    ],
-    "text_en": "German Article about Louis Berneis, Benno\u2019s father",
-    "text_de": "Deutscher Artikel ueber Louis Berneis, Benno\u2019s Vater",
-    "footer": ""
-  },
-  {
-    "images": [
       "https://64.media.tumblr.com/tumblr_luu7pzzGbT1qk1nkmo1_640.jpg"
     ],
     "text_en": "Plaque Gertrud Eydold",
@@ -703,6 +714,68 @@
             };
 
             updateLanguageUI();
+
+            // Dark Mode Toggle
+            const darkModeToggle = document.getElementById('dark-mode-toggle');
+            const themeIcon = document.getElementById('theme-icon');
+
+            function getMode() {
+                const theme = localStorage.getItem('theme');
+                if (theme === 'dark') return 'dark';
+                if (theme === 'light') return 'light';
+                return 'system';
+            }
+
+            function applyMode(mode) {
+                document.documentElement.classList.remove('dark', 'light');
+                if (mode === 'dark') {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('theme', 'dark');
+                } else if (mode === 'light') {
+                    document.documentElement.classList.add('light');
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    localStorage.removeItem('theme');
+                    // System preference is handled by CSS media query
+                }
+                updateIcon(mode);
+            }
+
+            function updateIcon(mode) {
+                let path;
+                if (mode === 'light') {
+                    // Sun icon
+                    path = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>';
+                } else if (mode === 'dark') {
+                    // Moon icon
+                    path = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>';
+                } else {
+                    // Computer/system icon
+                    path = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>';
+                }
+                themeIcon.innerHTML = path;
+            }
+
+            function cycleMode() {
+                const current = getMode();
+                let next;
+                if (current === 'light') next = 'dark';
+                else if (current === 'dark') next = 'system';
+                else next = 'light';
+                applyMode(next);
+            }
+
+            darkModeToggle.addEventListener('click', cycleMode);
+
+            // Initialize icon based on current mode
+            updateIcon(getMode());
+
+            // Listen for system preference changes
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+                if (getMode() === 'system') {
+                    // CSS handles it, but we can trigger any needed updates here
+                }
+            });
         });
     </script>
 </body>

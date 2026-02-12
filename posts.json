@@ -7,7 +7,15 @@
     "text_de": "Artikel aus \u201cDer Welt Spiegel\u201d, 29 März 1917",
     "piclink": "./pdfs/der-welt-spiegel-1917.pdf",
     "footer": ""
-
+  },
+  {
+    "images": [
+      "./images/jahrgang-1901.webp"
+    ],
+    "text_en": "Founding class of the 1901 Abitur – including Benno Berneis (standing, far left)",
+    "text_de": "Gründungsjahrgang der Abitura 1901 – darunter Benno Berneis (stehend, ganz li.)",
+    "piclink": "https://fiorda1418.wordpress.com/benno-berneis/",
+    "footer": ""
   },
   {
     "images": [
